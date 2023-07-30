@@ -1,10 +1,8 @@
-你好，你的项目很有趣，我很乐意为你写一个readme。以下是我写的一个简单的模板，你可以根据自己的需要进行修改：
-
-# TranslateGLM
+TranslateGLM
 
 TranslateGLM 是一个基于 ChatGLM2-6B 模型微调的中英文翻译器，可以实现高质量的双向翻译。
 
-使用183万参数进行了 [P-Tuning v2](https://github.com/THUDM/P-tuning-v2) 的微调，微调的样本的格式可以参考 validation_file.txt 中的内容。
+使用183万参数进行了 [P-Tuning v2](https://github.com/THUDM/P-tuning-v2) 的微调，微调的样本的格式可以参考 [validation_file.txt](https://github.com/WildXBird/TranslateGLM/blob/main/validation_file.txt) 中的内容。
 
 微调过后的模型，在可以很好的充当翻译器的同时仍然可以正常的进行聊天对话。
 
@@ -40,7 +38,7 @@ python ./glm/openai_api.py
 ```
 
 你可以通过如下命令启动翻译器的前端UI：
-启动UI前必须先启动上面的API
+*启动UI前必须先启动上面的API*
 
 ```
 yarn start
@@ -59,13 +57,13 @@ python ./glm/web_demo.py
 你可以通过如上面的“OpenAI格式的API”进行正常对话，使用方式和普通的调用方法无异：
 
 ```
-python web_demo.py
+python ./glm/openai_api.py
 ```
-
 
 ## 翻译UI
 
 翻译UI暂时不支持指定输入语言，输入的语言的自动判断是中文还是英文，然后自动翻译成另一种语言。
+
 
 翻译UI可以指定翻译结果的随机性，分为基本、不上不下和发散。
 
@@ -74,3 +72,6 @@ python web_demo.py
 发散可以更好的理解文本内涵，但有概率错误的把翻译当成对话进行回复。
 
 不上不下介于两者之间。
+
+
+把鼠标悬停在翻译结果上，可以查看翻译的原文以及原文在输入中的位置。
