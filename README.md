@@ -1,4 +1,4 @@
-#TranslateGLM
+# TranslateGLM
 
 TranslateGLM 是一个基于 ChatGLM2-6B 模型微调的中英文翻译器，可以实现高质量的双向翻译。
 
