@@ -10,6 +10,8 @@ ChatGLM2-6B 是一个开源的、支持中英问答的对话语言模型，基�
 
 https://github.com/WildXBird/TranslateGLM/blob/main/1.png?raw=true
 
+![这是图片](https://github.com/WildXBird/TranslateGLM/blob/main/1.png?raw=true)
+
 ## 功能
 
 - 支持中文和英文之间的双向翻译
