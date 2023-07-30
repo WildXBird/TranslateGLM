@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+	font-family: 'Noto Sans TC', 'Noto Sans SC', 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	color-scheme: light dark;
+	color: #444;
+	background: #fafafa;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color: #fff;
+		background: #1c1c1c;
+	}
+}
+
+html {
+	background: white !important;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+	/* overflow: overlay; */
+}
+
+layout-pc {
+	display: none;
+}
+
+@media (min-width: 1025px) {
+	layout-mobile {
+		display: none;
+	}
+
+	layout-pc {
+		display: block;
+	}
+}

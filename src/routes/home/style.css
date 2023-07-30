@@ -1,0 +1,19 @@
+.home {
+    height: max(100vh,700px);
+    /* min-height: 700px; */
+}
+
+@media (min-width: 1025px) {
+    .home {
+        height: calc(1150px + 500px);
+    }
+
+    .home[data="0"] {
+        height: calc(1150px);
+    }
+}
+
+::highlight(custom-highlight) {
+  background-color: yellow;
+  color: black;
+}
