@@ -8,9 +8,10 @@ TranslateGLM 是一个基于 ChatGLM2-6B 模型微调的中英文翻译器，可
 
 ChatGLM2-6B 是一个开源的、支持中英问答的对话语言模型，基于 General Language Model (GLM) 架构，具有约 60 亿参数。
 
-https://github.com/WildXBird/TranslateGLM/blob/main/1.png?raw=true
 
-![这是图片](https://github.com/WildXBird/TranslateGLM/blob/main/1.png?raw=true)
+![图片](https://github.com/WildXBird/TranslateGLM/blob/main/0.png?raw=true)
+
+![图片](https://github.com/WildXBird/TranslateGLM/blob/main/1.png?raw=true)
 
 ## 功能
 
