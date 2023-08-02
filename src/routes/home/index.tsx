@@ -108,9 +108,10 @@ Try the online demo on Huggingface Spaces.`} />
 	}
 	renderTemperatureSelector() {
 		const optionsWithDisabled = [
-			{ value: 0.1, label: '基本' },
-			{ value: 0.5, label: '不上不下' },
-			{ value: 0.8, label: '发散' },
+			{ value: 0.1, label: '保守' },
+			{ value: 0.5, label: '平衡' },
+			{ value: 0.8, label: '灵活' },
+			{ value: 0.999, label: '发散' },
 		];
 		return <Radio.Group
 			style={{ marginBottom: 14 }}
