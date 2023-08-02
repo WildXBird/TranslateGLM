@@ -2,7 +2,7 @@
 
 TranslateGLM 是一个基于 ChatGLM2-6B 模型微调的中英文翻译器，可以实现高质量的双向翻译。
 
-使用183万参数进行了 [P-Tuning v2](https://github.com/THUDM/P-tuning-v2) 的微调，微调的样本的格式可以参考 [validation_file.txt](https://github.com/WildXBird/TranslateGLM/blob/main/validation_file.txt) 中的内容。
+使用265万个样本进行了 [P-Tuning v2](https://github.com/THUDM/P-tuning-v2) 的微调，微调的样本的例子可以参考 [validation_file.txt](https://github.com/WildXBird/TranslateGLM/blob/main/validation_file.txt) 中的内容。
 
 微调过后的模型，在可以很好的充当翻译器的同时仍然可以正常的进行聊天对话。
 
